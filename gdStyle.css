@@ -1,0 +1,509 @@
+*{
+	margin: 0;
+	padding: 0;
+	word-break: break-all;
+}
+ input,button,select,textarea{
+ 	outline:none
+ }
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: #40B055;
+	cursor: pointer;
+	font-weight: 600;
+}
+ul{
+	list-style-type: none;
+}
+.navLeft-position{
+	position: fixed;
+	top: 55px;
+}
+.barNavBox-position{
+	position: fixed;
+	top: 0px;
+}
+.mainContainer-margin{
+	margin-left: 240px;
+	margin-top: 50px;
+}
+.warpper{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	padding-top: 10px;
+}
+.header-box{
+	width: 70%;
+	height: 100px;
+	margin: 0 auto;
+/*	float: left;*/
+	position: relative;
+	overflow: hidden;
+}
+.header .header-logo{
+	float: left;
+	width: 250px;
+	height: 90px;
+	margin-left: 40px;
+}
+.header .header-logo img{
+	width: 250px;
+	height: 90px;
+	float: left;
+}
+.header .header-search{
+	float: left;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+.header .header-search input{
+	float: left;
+	width: 350px;
+	height: 50px;
+	border: 2px solid #222222;
+	font-size: 20px;
+}
+.header .header-search .search{
+	margin: 0px;
+	width: 70px;
+	height: 54px;
+	float: left;
+	cursor: pointer;
+	border-left: 0px;
+}
+
+.all-container{
+	width: 100%;
+	/*margin: 3px auto;*/
+	height: auto;
+	background: #f2eded;
+/*	position: absolute;
+	top: 165px;
+	left:0px ;*/
+}
+.container-box{
+/*	width: 90%;*/
+	overflow: hidden;
+	position: relative;
+
+}
+.main-container{
+	width: 77%;
+	overflow: hidden;
+	float: left;
+}
+
+.bar-nav-box{
+	width: 100%;
+	height: 50px;
+	border-top: 3px solid red;
+	box-shadow: 0 1px 5px #ccc;
+	background: white;
+/*	position: absolute;*/
+	z-index: 3000;
+/*	background: white;*/
+}
+.bar-nav{
+	width: 1000px;
+	height:50px;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.bar-nav-box .bar-nav ul{
+	margin-left: 50px;
+	height: 50px;
+	overflow: auto;
+}
+.bar-nav-box .bar-nav ul li{
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+.bar-nav-box .bar-nav li a{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.bar-nav-box .bar-nav li:hover{
+	background: #ccc;
+}
+.nav-left{
+	float: left;
+	width: 14%;
+	height: auto;
+	background: #e7f6f1;
+	overflow: hidden;
+	border-top : 2px solid #2EA15C;
+	margin-left: 50px;
+/*	position: relative;*/
+}
+.container-box .nav-left ul{
+	width: 100%;
+	height: auto;
+}
+.container-box .nav-left ul li{
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #ccc;
+	line-height: 40px;
+	text-align: center;
+}
+.container-box .nav-left ul li:hover{
+	width: 100%;
+	height: 40px;
+	border-left: 2px solid #2EA15C;
+	color: #2EA15C;
+}
+.main{
+	float: left;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.main .photo-show{
+	height: 500px;
+/*	float: left;*/
+	background: black;
+	overflow: hidden;
+/*	position: relative;*/
+}
+.photo-contain{
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+}
+.main .photo-box{
+	width: 150px;
+	float: left;
+	position: absolute;
+}
+.photo-box img{
+	width: 150px;
+	padding : 10px 10px 15px;
+	background: white;
+	border: 1px solid #ddd;
+	z-index: 1;
+	transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+	-webkit-transition: all 1s ease-in;
+	
+}
+.pic0{
+	left:50px;
+	top:0px;
+	transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+/*	z-index: 100;*/
+}
+.pic1{
+	left:200px;
+	top:0px;
+	transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+/*	z-index: 200;*/
+}
+.pic2{
+	left:350px;
+	top:0px;
+	transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+/*	z-index: 300;*/
+}
+.pic3{
+	left:500px;
+	top:0px;
+	transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+/*	z-index: 400;*/
+}
+.pic4{
+	left:650px;
+	top:0px;
+	transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+/*	z-index: 500;*/
+}
+.pic5{
+	left:50px;
+	top:250px;
+	transform: rotate(25deg);
+	-webkit-transform: rotate(25deg);
+	-moz-transform: rotate(25deg);
+/*	z-index: 600;*/
+}
+.pic6{
+	left:200px;
+	top:250px;
+	transform: rotate(25deg);
+	-webkit-transform: rotate(25deg);
+	-moz-transform: rotate(25deg);
+/*	z-index: 700;*/
+}
+.pic7{
+	left:350px;
+	top:250px;
+	transform: rotate(25deg);
+	-webkit-transform: rotate(25deg);
+	-moz-transform: rotate(25deg);
+/*	z-index: 800;*/
+}
+.pic8{
+	left:500px;
+	top:250px;
+	transform: rotate(25deg);
+	-webkit-transform: rotate(25deg);
+	-moz-transform: rotate(25deg);
+/*	z-index: 900;*/
+}
+.pic9{
+	left:650px;
+	top:250px;
+	transform: rotate(25deg);
+	-webkit-transform: rotate(25deg);
+	-moz-transform: rotate(25deg);
+/*	z-index: 1000;*/
+}
+.photo-box img:hover{
+	transform: rotate(0deg) scale(1.20);
+	-webkit-transform: rotate(0deg) scale(1.20);
+	-moz-transform: rotate(0deg) scale(1.20);
+	z-index: 2;
+	box-shadow: 15px 15px 20px 5px #ccc;
+}
+
+.photo-box:hover{
+	transform: rotate(0deg) scale(1.20);
+	-webkit-transform: rotate(0deg) scale(1.20);
+	-moz-transform: rotate(0deg) scale(1.20);
+	z-index: 2;
+	box-shadow: 15px 15px 20px 5px #ccc;
+	position: relative;
+	top: 150px;
+/*	left: 300px;*/
+}
+
+.main .lesson-list{
+	padding: 60px 0px 10px 0px;
+	width: 75%;
+	float: left;
+	margin-left: 250px;
+	border-left: 5px solid #e4e4e4;
+}
+.cf:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.main .lesson-list .learn-lessonList {
+	margin-bottom: 10px;
+	position: relative;
+}
+.main .lesson-list .learn-lessonList .stageicon{
+	position: absolute;
+	left: -17px;
+	top: 0px;
+	z-index: 30;
+	width:15px;
+	height: 15px;
+	border: 5px solid #e4e4e4;
+	background: #f1f1f1;
+}
+.main .lesson-list .learn-lessonList .stagewaring-box{
+	width: 180px;
+	height: auto;
+	padding: 10px;
+	position: absolute;
+	left: -240px;
+	top: -10px;
+	background: white;
+}
+
+.learn-lessonList .stagewaring-box:after, .learn-lessonList .stagewaring-box:before {
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  left: 100%;
+  position: absolute;
+  width: 0;
+}
+
+.learn-lessonList .stagewaring-box:after {
+  border-width: 9px;
+  border-left-color: #ccc;
+  top: 15px;
+}
+
+.learn-lessonList .stagewaring-box:before {
+  border-width: 14px;
+  border-left-color: #333;
+  top: 10px;
+}
+
+.main .lesson-list .learn-lessonList .stagewaring-box .textcontent{
+	text-indent: 2em;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.main .lesson-list .lesson-imgBox{
+	float: left;
+	margin-left: 50px;
+	margin-bottom: 15px;
+	margin-right: 100px;
+}
+.lesson-imgBox{
+	width: 230px;
+	height: 250px;
+	overflow: hidden;
+	background: white;
+	position: relative;
+	cursor: pointer;
+
+}
+.lesson-imgBox .img-box{
+	width: 100%;
+	height: 130px;
+	margin-bottom: 5px;
+
+}
+.lesson-imgBox .img-box img{
+	width: 100%;
+	height: 130px;
+	display: block;
+}
+.lesson-imgBox h3{
+	padding: 0 10px;
+	overflow: hidden;
+	font-size: 16px;
+	line-height: 24px
+}
+.lesson-imgBox a:hover ,.lesson-imgBox a:visited{
+	color: #273346;
+}
+.lesson-imgBox .imgbox-foot{
+	font-size: 12px;
+	color: #a9a9a9;
+	padding: 0px 10px;
+	position: absolute;
+	bottom: 0px;
+	width: 210px;
+	clear: both;
+	left: 0;
+	z-index: 50;
+}
+.lesson-imgBox .imgbox-foot .time{
+	float: right;
+}
+.lesson-imgBox .img-pop{
+ 	text-indent: 2em;
+	width: 230px;
+	height: 60px;
+	font-size: 14px;
+	display: none;
+}
+.marginTop55 {
+	margin-top: 55px;
+}
+.top-box{
+	width: 60px;
+	height: 80px;
+	position: fixed;
+	bottom: 30px;
+	left: 95%;
+	overflow: hidden;
+	display: none;
+
+}
+.top-box a img{
+	width: 60px;
+	height: 80px;
+	/*position: fixed;
+	bottom: 30px;
+	left: 80%;*/
+
+}
+.learn-lessonList .tab-box{
+	width: 33%;
+	height: 100px;
+	margin: 0 auto;
+	border: 1px solid #c3c3c3;
+	overflow: hidden;
+}
+.learn-lessonList .tab-box .tab-title{
+	height: 27px;
+	position: relative;
+	background: black;
+}
+.learn-lessonList .tab-box .tab-title ul{
+	position: absolute;
+/*	width: 301px*/
+	left: -1px;
+}
+.learn-lessonList .tab-box .tab-title li{
+	float: left;
+	width: 50px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	border-bottom: 1px solid #eee;
+	overflow: hidden;
+
+}
+.learn-lessonList .tab-box .tab-title a{
+	color: white;
+}
+.learn-lessonList .tab-box .tab-title .select{
+	background: white;
+	border-right: 1px solid #eee;
+	border-left: 1px solid #eee; 
+	padding: 0;
+	color: black;
+}
+.learn-lessonList .tab-box .tab-title .select a{
+	color: black;
+}
+.learn-lessonList .tab-box .tabContent-box .tab-content{
+	font-size: 14px;
+	margin: 15px 0px 10px 10px;
+}
+.learn-lessonList .tab-box .tabContent-box .tab-content li{
+	float: left;
+	width: 120px;
+	height: 25px;
+	overflow: hidden;
+
+}
+.record-box{
+	clear: both;
+	width:80%;
+	height: auto;
+	margin: 0 auto;
+
+
+}
+.main .record-box .record{
+	width: 100%;
+	margin-top: 20px;
+	text-align:center;
+	background: white;
+}
+.main .record-box .record td span{
+	border: 0;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
